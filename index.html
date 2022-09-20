@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>AnimatCss</title>
+</head>
+
+<body id="body" onload="myF();">
+    <div class="main">
+
+        <div id="pr" class="animate__animated animate__fadeInLeft  header">
+            <div class="presnt">
+                <img src="./img/IMG_0288.jpg" alt="" srcset="" class="myImg" id="img">
+                <div>
+                    <h1>Khattab Alshami</h1>
+                    <h3 class="animate__animated animate__heartBeat animate__delay-1s
+                animate__infinite animate__slower">.Net Utvecklare</h3>
+                </div>
+            </div>
+
+            <div class="contact" >
+                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s animate__slower">0735304657</h1>
+                <h1 class="animate__animated animate__fadeInLeft animate__delay-1s animate__slower">
+                    khmoal90@gmail.com</h1>
+            </div>
+        </div>
+    </div>
+    <div  class="p1" data-aos="flip-right" data-aos-offset="500" 
+    data-aos-duration="1000"   data-aos-easing="ease-in-out">
+        <div id="t1" class="text">
+            <h1 id="body2"  > Jag <span class="mov"> </span></h1>
+        </div>
+    </div>
+    <div  class="p" data-aos="flip-right" data-aos-offset="500" data-aos-delay="100"
+    data-aos-duration="1000"   data-aos-easing="ease-in-out">
+    <div class="text" id="t2">
+        <h1 id="body3" > Mina  kunskaper: <span class="mov1"> </span></h1>
+    </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/kursor"></script>
+    <script>
+        var typed = new Typed(".mov", {
+            strings: [, "heter Khattab, är 32 år gammal, är student till WebbUtvecklare inom .Net . . . .",
+                "har studerat datorteknik både i gymnasiet och institut, har pluggat två år på universitet men det avbröts PGA kriget, har jobbat som IT lärare i mitt hemland", 
+                "har flyttat till Sverige 2014 har lärt mig svenska på gymnasie , jag har varit och är snäll kille ☻ ☻", ],
+            typeSpeed: 100,
+            backSpeed: 15,
+            loop: false,
+
+
+        })
+        var typed = new Typed(".mov1", {
+                strings: [, " Gymnasie nivå: Turbo Psacal, Delphi, Visual Basic, PhotoShop, MS-DOS","EC Utbildning: C#, ASP, Entity framework ...osv, det är pågående ☻ ☻ . . . ", "Eftergymnasie nivå: HTML, CSS, JavaScript, C++ , Visual C, Java, SQL,PHP . . . "],
+                typeSpeed: 100,
+                backSpeed: 15,
+                loop: true,
+
+
+            })
+            
+                
+        new kursor({
+            type: 4,
+            color: 'rgba(140,255,47)'
+
+        })
+    </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./particles.js-master/particles.min.js"></script>
+    <script src="./app.js"></script>
+
+
+
+</body>
+
+</html>
